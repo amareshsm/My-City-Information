@@ -32,7 +32,7 @@ $error="Email id or Mobile no is invalid";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | MY CITY INFORMATION</title>
+<title>City Info| MY CITY INFORMATION</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Tourism Management System In PHP" />

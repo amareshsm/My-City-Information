@@ -6,8 +6,6 @@
 			<li class="hm"><a href="index.php"><i class="fa fa-home"></i></a></li>
 			<li class="prnt"><a href="profile.php">My Profile</a></li>
 				<li class="prnt"><a href="change-password.php">Change Password</a></li>
-			<li class="prnt"><a href="tour-history.php">My Tour History</a></li>
-			<li class="prnt"><a href="issuetickets.php">Issue Tickets</a></li>
 		</ul>
 		<ul class="tp-hd-rgt wow fadeInRight animated" data-wow-delay=".5s"> 
 			<li class="tol">Welcome :</li>				
@@ -66,10 +64,9 @@ echo "
 							<li><a href="page.php?type=aboutus">About</a></li>
 							
 								<li><a href="page.php?type=privacy">Privacy Policy</a></li>
-								<li><a href="page.php?type=terms">Terms of Use</a></li>
 								<?php if($_SESSION['login'])
 {?>
-								<li>Need Help?<a href="#" data-toggle="modal" data-target="#myModal3"> / Write Us </a>  </li>
+								<li><a href="#" data-toggle="modal" data-target="#myModal3"> Enquiry </a>  </li>
 								<?php } else { ?>
 								<li><a href="enquiry.php"> Enquiry </a>  </li>
 								<?php } ?>

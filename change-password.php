@@ -36,7 +36,7 @@ $error="Your current password is wrong";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Tourism Management System</title>
+<title>City Info| Tourism Management System</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Tourism Management System In PHP" />
@@ -91,11 +91,7 @@ return true;
 <!-- top-header -->
 <div class="top-header">
 <?php include('includes/header.php');?>
-<div class="banner-1 ">
-	<div class="container">
-		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">TMS-Tourism Management System</h1>
-	</div>
-</div>
+
 <!--- /banner-1 ---->
 <!--- privacy ---->
 <div class="privacy">

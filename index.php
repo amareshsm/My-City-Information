@@ -12,23 +12,22 @@ include('includes/config.php');
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
-<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="applijewelleryion/x-javascript"> 
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link href="css/font-awesome.css" rel="stylesheet">
-<!-- Custom Theme files -->
 <script src="js/jquery-1.12.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<!--animate-->
 <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 <script src="js/wow.min.js"></script>
 	<script>
 		 new WOW().init();
 	</script>
-<!--//end-animate-->
 </head>
 <body>
 <?php include('includes/header.php');?>
@@ -191,18 +190,12 @@ include('includes/config.php');
 	</div>
 
 </div>
-<!--- /rupes ---->
 
 
 
 
-<!---holiday---->
 <div class="container" style="width: 95%;">
 	<div class="holiday">
-
-
-
-
 
 	<h3>Places :</h3>
 
@@ -620,7 +613,7 @@ foreach($results as $result)
 				<a href="#"><i class="fa fa-eye" style="font-size: 60px;"></i></a>
 			</div>
 			<div class="rou-rgt">
-				<h3>90</h3>
+				<h3>100+</h3>
 				<p>Views</p>
 			</div>
 				<div class="clearfix"></div>
@@ -632,7 +625,7 @@ foreach($results as $result)
 				<a href="#"><i class="fa fa-user"></i></a>
 			</div>
 			<div class="rou-rgt">
-				<h3>90</h3>
+				<h3>50+</h3>
 				<p>users</p>
 			</div>
 				<div class="clearfix"></div>

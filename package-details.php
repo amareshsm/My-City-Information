@@ -22,7 +22,7 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-$msg="Booked Successfully";
+$msg=" Successfully Added";
 }
 else 
 {
@@ -34,7 +34,7 @@ $error="Something went wrong. Please try again";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Package Details</title>
+<title>City Info| Package Details</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -165,31 +165,7 @@ foreach($results as $result)
 
 		</div>
 
-		<!--<div class="selectroom_top">
-			<h2>Travels</h2>
-			<div class="selectroom-info animated wow fadeInUp animated" data-wow-duration="1200ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1200ms; animation-delay: 500ms; animation-name: fadeInUp; margin-top: -70px">
-				<ul>
-				
-					<li class="spe">
-						<label class="inputLabel">Comment</label>
-						<input class="special" type="text" name="comment" required="">
-					</li>
-					<?php # if($_SESSION['login'])
-					{?>
-						<li class="spe" align="center">
-					<button type="submit" name="submit2" class="btn-primary btn">Book</button>
-						</li>
-						<?php } #else {?>
-							<li class="sigi" align="center" style="margin-top: 1%">
-							<a href="#" data-toggle="modal" data-target="#myModal4" class="btn-primary btn" > Book</a></li>
-							<?php } 
-
-							?>
-					<div class="clearfix"></div>
-				</ul>
-			</div>
-			
-		</div>-->
+  
 		</form>
 <?php
 }

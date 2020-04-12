@@ -37,7 +37,7 @@ label{
 }
 /*-- top-header --*/
 .logo a {
-    color: #3F84B1;
+    color: rgb(28, 145, 221);
     letter-spacing: 1px;
     font-size: 2em;
     font-weight: 400;
@@ -52,7 +52,7 @@ i.fa.fa-home {
     font-size: 24px;
 }
 .top-header {
-    background-color: #3F84B1;
+    background-color: rgb(28, 145, 221);
     border-bottom: 0 none;
 	height: 36px;
     line-height: 35px;
@@ -1509,7 +1509,7 @@ button.subbtn:focus, button.subbtn:hover {
     font-weight: normal;
     background: none;
     border: 1px solid #E6E4E4;
-    color: #D2D1D1;
+    color:#000;
     outline: none;
     font-size: 14px;
     margin-top: 20px;
@@ -1545,7 +1545,7 @@ button.subbtn:focus, button.subbtn:hover {
  margin-top:20px;
 }
 .login-right input[type="submit"]:hover {
-	background:#3F84B1;
+	background:rgb(28, 145, 221);
 }
 .login-grids p {
     font-size: 12px;
@@ -1667,7 +1667,7 @@ button.subbtn:focus, button.subbtn:hover {
     line-height: 35px;
 }
 .app-right h3 span {
-	color:#3F84B1;
+	color:rgb(28, 145, 221);
 	margin:0 7px;
 }
 .app-right p {
@@ -1725,7 +1725,7 @@ button.subbtn:focus, button.subbtn:hover {
   line-height: 1.8em;
 }
 .services-icon {
-  background: #3F84B1;
+  background: rgb(28, 145, 221);
   width: 120px;
   height: 120px;
   line-height: 136px;
@@ -1783,7 +1783,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	color:#4CB320;
 }
 .comments-list h3 a:hover{
-	color:#3F84B1;
+	color:rgb(28, 145, 221);
 }
 .comments-list ul{
 	padding:1.5em 0 2em; 
@@ -1832,7 +1832,7 @@ ul.paging{
 }
 .popular h3, .subscribe h3, .categories h3, .instagram h2, .tags h3 {
     padding: 1em;
-    background: #3F84B1;
+    background: rgb(28, 145, 221);
     color: #fff;
     font-size: 1.5em;
     text-align: center;
@@ -1853,7 +1853,7 @@ ul.paging{
 }
 .popular-right h5 a{
 	font-size:1.5em;
-	color:#3F84B1;
+	color:rgb(28, 145, 221);
 	text-decoration:none;
 	text-transform:capitalize;
 }
@@ -1904,7 +1904,7 @@ ul.paging{
 	width:100%;
 }
 .subscribe input[type="submit"]:hover{
-	background:#3F84B1;
+	background:rgb(28, 145, 221);
 }
 .categories ul li{
 	padding-left: 2em;
@@ -1933,10 +1933,10 @@ ul.paging{
 	margin: 0 0px 9px;
 }
 .tags ul li a {
-    border: 1px solid #3F84B1;
+    border: 1px solid rgb(28, 145, 221);
     padding: 3px 12px;
     font-size: 14px;
-    color: #3F84B1;
+    color: rgb(28, 145, 221);
     text-decoration: none;
 }
 .recent-comments h3 {
@@ -1992,7 +1992,7 @@ ul.paging{
 }
 .recent-comments-grid-right h4 a {
     font-size: 1em;
-    color: #3F84B1;
+    color: rgb(28, 145, 221);
     text-decoration: none;
 }
 .recent-comments-grid-right h4 a:hover{
@@ -2061,7 +2061,7 @@ ul.paging{
 	text-align:center;
 }
 .leave-comment input[type="submit"]:hover{
-	background:#3F84B1;
+	background:rgb(28, 145, 221);
 }
 /*-- //single1 --*/
 .footer-social-icons ul li {
@@ -2071,73 +2071,15 @@ ul.paging{
 .footer-social-icons ul li a{
 	width:30px;
 	height:30px;
-	background:url('../images/img-sprite.png') no-repeat 0px 0px;
 	display:inline-block;
-	position: relative;
+    position: relative;
+    border:2px solid black;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-.footer-social-icons ul li a span {
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: -25px;
-    right: -25px;
-    padding: 5px;
-    font-size: 14px;
-    border-radius: 2px;
-    background:#1F8DD6;
-    visibility: hidden;
-    opacity: 0;
-    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.footer-social-icons ul li a span:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #1F8DD6;
-    position: absolute;
-    bottom: -5px;
-    left: 34px;
-}
-.footer-social-icons ul li a:hover span {
-    bottom: 41px;
-    visibility: visible;
-    opacity: 1;
-}
-.footer-social-icons ul li a.facebook {
-	background-position:0px 0px;
-}
-.footer-social-icons ul li a.facebook:hover {
-	background-position:-0px -30px;
-}
-.footer-social-icons ul li a.twitter {
-	background-position:-30px 0px;
-}
-.footer-social-icons ul li a.twitter:hover {
-	background-position:-30px -30px;
-}
-.footer-social-icons ul li a.flickr {
-	background-position:-60px 0px;
-}
-.footer-social-icons ul li a.flickr:hover {
-	background-position:-60px -30px;
-}
-.footer-social-icons ul li a.googleplus {
-	background-position:-90px 0px;
-}
-.footer-social-icons ul li a.googleplus:hover {
-	background-position:-90px -30px;
-}
-.footer-social-icons ul li a.dribbble {
-	background-position:-120px 0px;
-}
-.footer-social-icons ul li a.dribbble:hover {
-	background-position:-120px -30px;
-}
+
 .footer-social-icons {
     margin: 10px 0 10px;
 }
@@ -2200,7 +2142,7 @@ ul.paging{
 	text-decoration:none;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:22px;
-	color:#3F84B1;
+	color:rgb(28, 145, 221);
 	opacity: 1;
 	}
 

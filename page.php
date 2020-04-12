@@ -26,9 +26,7 @@ else
 {
 $error="Something went wrong. Please try again";
 }
-
 }
-
 ?>
 <!DOCTYPE HTML>
 <html>
